@@ -4,6 +4,8 @@ $(".gallery").masonry({
   percentPosition: true
 });
 
+$(".thumbnail").simpleLightbox();
+
 $(".touchevents .thumbnail").hammer().bind("press", function() {
 // Your code here
 });
